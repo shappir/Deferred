@@ -51,5 +51,7 @@ Instead of
 ### Exercise #5
 
 Modify $.wait() to return a deferred, so that:
+
 1. .reject() on the deferred cancels timer
+
 2. .resolve() cancels timer, but immediately executes callbacks
