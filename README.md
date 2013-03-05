@@ -8,6 +8,24 @@ As part of this session, I included several "homework" exercises to test the att
 
 ## Homework
 
-# Exercise No 1
+### Exercise #1
 
-Hello
+List JavaScript APIs inside the browser that are blocking, besides windows.alert(), window.confirm() and window.prompt()
+
+### Exercise #2
+
+What is the output for:
+
+    $(document.body).append('<div>1</div>');
+    var d = $.Deferred();
+    d.done(function () {
+        $(document.body).append('<div>2</div>');
+    });
+    $(document.body).append('<div>3</div>');
+    d.resolve();
+    $(document.body).append('<div>4</div>');
+    d.done(function () {
+        $(document.body).append('<div>5</div>');
+    });
+    $(document.body).append('<div>6</div>');
+
